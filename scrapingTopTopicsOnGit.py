@@ -40,5 +40,7 @@ df = pd.DataFrame(my_dictionary)
 
 # Write to CSV
 df.to_csv('output.csv', index=False)
-
+df.to_excel('output.xlsx' , index = False)
+print ("excel has been created")
 print("CSV file has been created successfully!")
+
